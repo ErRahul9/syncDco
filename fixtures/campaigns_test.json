@@ -1,0 +1,73 @@
+{
+  "campaigns": {
+    "test1": {
+      "payload": {
+        "type": "CAMPAIGN",
+        "action": "UPDATE",
+        "id": "292425",
+        "entity": {
+          "active": false,
+          "campaignGroupId": 85053,
+          "campaignId": 292425
+        }
+      },
+      "queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/sync_bx_qa.fifo",
+      "expectedResult": {
+        "statusCode": 200,
+        "field": ""
+      }
+    },
+    "test2": {
+      "payload": {
+        "type": "CAMPAIGN",
+        "action": "UPDATE",
+        "id": "292427",
+        "entity": {
+          "active": false,
+          "campaignGroupId": 85053,
+          "campaignId": 292427
+        }
+      },
+      "queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/sync_bx_qa.fifo",
+      "expectedResult": {
+        "statusCode": 200,
+        "field": ""
+      }
+    },
+     "test3": {
+      "payload": {
+        "type": "CAMPAIGN",
+        "action": "UPDATE",
+        "id": "291938",
+        "entity": {
+          "active": false,
+          "campaignGroupId": 84835,
+          "campaignId": 291938
+        }
+      },
+      "queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/sync_bx_qa.fifo",
+      "expectedResult": {
+        "statusCode": 200,
+        "field": ""
+      }
+    },
+      "test4": {
+      "payload": {
+        "type": "CAMPAIGN",
+        "action": "UPDATE",
+        "id": "288322",
+        "entity": {
+          "active": false,
+          "campaignGroupId": 83412,
+          "campaignId": 288322
+        }
+      },
+      "queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/sync_bx_qa.fifo",
+      "expectedResult": {
+        "statusCode": 200,
+        "field": ""
+      }
+    }
+  }
+}
+

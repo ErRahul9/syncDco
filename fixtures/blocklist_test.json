@@ -1,0 +1,80 @@
+{
+  "blocklist": {
+    "addSiteToBlockList": {
+      "payload": {
+        "site": "GLOBALAUTOMATION",
+        "publisherTypeId": 1,
+        "append": true,
+        "advertiserId": 164100
+      },
+      "queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/sync_blocked_sites_qa.fifo",
+      "expectedResult": {
+        "statusCode": 200,
+        "field":""
+
+      },
+      "databaseInformation": {
+        "tableName": "sync.campaign_thresholds",
+        "getColmn": "recency_threshold",
+        "key": "campaign_id"
+      }
+    },
+     "removeSiteFromBlockList": {
+      "payload": {
+        "site": "removeSiteFromBlockList",
+        "publisherTypeId": 1,
+        "append": false,
+        "advertiserId": 32846
+      },
+      "queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/sync_blocked_sites_qa.fifo",
+      "expectedResult": {
+        "statusCode": 200,
+        "field":""
+
+      },
+      "databaseInformation": {
+        "tableName": "sync.campaign_thresholds",
+        "getColmn": "recency_threshold",
+        "key": "campaign_id"
+      }
+    },
+     "addSiteToBlockListWithNoAdvertiserId": {
+      "payload": {
+        "site": "addSiteToBlockListWithNoAdvertiserId",
+        "publisherTypeId": 1,
+        "append": true,
+        "advertiserId": ""
+      },
+      "queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/sync_blocked_sites_qa.fifo",
+      "expectedResult": {
+        "statusCode": 200,
+        "field":""
+
+      },
+      "databaseInformation": {
+        "tableName": "sync.campaign_thresholds",
+        "getColmn": "recency_threshold",
+        "key": "campaign_id"
+      }
+    },
+     "removeSiteFromBlockListWithNoAdvertiserId": {
+      "payload": {
+        "site": "removeSiteFromBlockListWithNoAdvertiserId",
+        "publisherTypeId": 1,
+        "append": false,
+        "advertiserId": ""
+      },
+      "queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/sync_blocked_sites_qa.fifo",
+      "expectedResult": {
+        "statusCode": 200,
+        "field":""
+
+      },
+      "databaseInformation": {
+        "tableName": "sync.campaign_thresholds",
+        "getColmn": "recency_threshold",
+        "key": "campaign_id"
+      }
+    }
+  }
+}

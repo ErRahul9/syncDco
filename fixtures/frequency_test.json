@@ -1,0 +1,454 @@
+{
+	"frequency": {
+		"DCOFrequencyCapProspectingFunnelLevel1": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89014,
+				"campaignId": 303951,
+				"line_item_id": 137640,
+				"caps": [
+					{
+						"cap": 1,
+						"duration": 86400
+					}
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		},
+		"DCOFrequencyCapProspectingFunnelLevel2": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89014,
+				"campaignId": 303953,
+				"line_item_id": 137642,
+				"caps": [
+					{
+						"cap": 1,
+						"duration": 86400
+					}
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		},
+		"DCOFrequencyCapProspectingFunnelLevel3": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89014,
+				"campaignId": 303952,
+				"line_item_id": 137639,
+				"caps": [
+					{
+						"cap": 1,
+						"duration": 86400
+					}
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		},
+		"DCOFrequencyCapProspectingFunnelLevel1_multiple": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89014,
+				"campaignId": 303951,
+				"line_item_id": 137640,
+				"caps": [
+						{
+						"cap": 12,
+						"duration":1036800
+					},
+					{
+						"cap": 1,
+						"duration": 86400
+					}
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		},
+		"DCOFrequencyCapProspectingFunnelLevel2_multiple": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89014,
+				"campaignId": 303953,
+				"line_item_id": 137642,
+				"caps": [
+						{
+						"cap": 2,
+						"duration": 86400
+					},
+					{
+						"cap": 6,
+						"duration": 2592000
+					}
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		},
+		"DCOFrequencyCapProspectingFunnelLevel3_multiple": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89014,
+				"campaignId": 303952,
+				"line_item_id": 137639,
+				"caps": [
+					{
+						"cap": 6,
+						"duration": 86400
+					},
+								{
+						"cap": 12,
+						"duration": 259200
+					}
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		},
+			"DCOFrequencyCapProspectingFunnelLevel3_override": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89014,
+				"campaignId": 303952,
+				"line_item_id": 137639,
+				"caps": [
+					{
+						"cap": 1,
+						"duration": 86400
+					}
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		},
+			"DCOFrequencyCapProspectingFunnelLevel3_override_2": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89014,
+				"campaignId": 303952,
+				"line_item_id": 137639,
+				"caps": [
+					{
+						"cap": 1,
+						"duration": 86400
+					},
+						{
+						"cap": 6,
+						"duration": 86400
+					},
+								{
+						"cap": 12,
+						"duration": 259200
+					}
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		},
+
+			"DCOFrequencyCapRetargettingFunnelLevel1": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89018,
+				"campaignId": 303968,
+				"line_item_id": 137651,
+				"caps": [
+					{
+						"cap": 4,
+						"duration": 86400
+					}
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		},
+		"DCOFrequencyCapRetargettingFunnelLevel2": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89018,
+				"campaignId": 303969,
+				"line_item_id": 137650,
+				"caps": [
+					{
+						"cap": 4,
+						"duration": 86400
+					}
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		},
+		"DCOFrequencyCapRetargettingFunnelLevel3": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89018,
+				"campaignId": 303964,
+				"line_item_id": 137649,
+				"caps": [
+					{
+						"cap": 4,
+						"duration": 86400
+					}
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		},
+		"DCOFrequencyCapRetargettingFunnelLevel1_mulltiple": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89018,
+				"campaignId": 303968,
+				"line_item_id": 137651,
+				"caps": [
+										{
+						"cap": 8,
+						"duration": 864000
+					},
+					{
+						"cap": 4,
+						"duration": 86400
+					}
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		},
+		"DCOFrequencyCapRetargettingFunnelLevel2_multiple": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89018,
+				"campaignId": 303969,
+				"line_item_id": 137650,
+				"caps": [
+					{
+						"cap": 4,
+						"duration": 86400
+					},
+					{"cap": 6, "duration": 2592000}
+
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		},
+		"DCOFrequencyCapRetargettingFunnelLevel3_Multiple": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89018,
+				"campaignId": 303964,
+				"line_item_id": 137649,
+				"caps": [
+					{
+						"cap": 4,
+						"duration": 86400
+					},
+					{"cap": 12, "duration": 259200}
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		},
+		"DCOFrequencyCapRetargettingFunnelLevel_Null_negative": {
+			"payload": {
+				"advertiserId": 37648,
+				"campaignGroupId": 89018,
+				"campaignId": 303967,
+				"line_item_id": 137648,
+				"caps": [
+					{
+						"cap": 4,
+						"duration": 86400
+					},
+					{"cap": 12, "duration": 259200}
+				],
+				"transactionId": "transactionId",
+				"batchId": null,
+				"type": "campaignMultiFrequencyCap",
+				"timestamp": "2023-09-08T18:57:24.820473Z"
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "threshold"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_frequency_caps",
+				"getColmn": "cap",
+				"key": "campaign_id"
+			}
+		}
+	}
+}
+

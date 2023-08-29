@@ -1,0 +1,29 @@
+{
+	"budget": {
+		"budgetTest1": {
+			"payload": {
+
+				"advertiserId": 30750,
+				"campaignGroupId": 30720,
+				"campaignId": 164100,
+				"budget": "0.00",
+				"duration": 3600,
+				"transactionId": "9740f562-9f24-4130-bf59-b452569810f8",
+				"batchId": "cea13622-4de6-46bf-ad1f-98cf7deb1ce9",
+				"type": "campaignHourlyBudget",
+				"timestamp": "2023-02-09T23:07:35.999473Z"
+
+			},
+			"queueUrl": "https://sqs.us-west-2.amazonaws.com/758867141056/DSO_SYNC_UPDATES_QA.fifo",
+			"expectedResult": {
+				"statusCode": 200,
+				"field": "budget"
+			},
+			"databaseInformation": {
+				"tableName": "sync.campaign_budgets",
+				"getColmn": "budget",
+				"key": "campaign_id"
+			}
+		}
+	}
+}
